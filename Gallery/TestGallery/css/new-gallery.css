@@ -1,0 +1,352 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4e3e3;
+    text-align: center;
+}
+
+.wrapper {
+    background: white;
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 1200px;
+}
+
+.header {
+    height: 100px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    float: left;
+    padding: 20px;
+}
+
+.header-ad {
+    width: 728px;
+    height: 90px;
+    padding: 5px 10px;
+    float: right;
+}
+
+/*.menu-section {
+    padding-bottom: 5px;
+}*/
+
+.desktop-menu {
+    height: 60px;
+    background: #c83939;
+    border: 1px solid #dedede;
+}
+
+.desktop-menu>a {
+    color: #fff;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.desktop-menu>a:hover {
+    color: #ffa133;
+    padding: 10px 20px;
+    background-color: #ff690082;
+    border-radius: 10%;
+}
+
+/*.desktop-menu>a::after {
+    content: "|";
+    color: #c3bfbf54;
+    padding-left: 10px;
+}*/
+
+.title {
+    display: inline-block;
+    font-family: Georgia, sans-serif;
+}
+
+.title>h1 {
+    font-size: 26px;
+    color: green;
+    font-weight: 400;
+    display: block;
+    border-bottom: 1px dashed #cccccc;
+    padding: 10px 10px 5px 10px;
+    margin: 0px;
+}
+
+.desk-nav {
+    font-size: 15px;
+    font-family: Helvetica, Arial, FreeSans, sans-serif;
+    color: #3366CC;
+    padding-left: 5px;
+}
+
+.middle-section {
+    padding: 5px;
+    display: inline-block;
+    width: 800px;
+}
+
+.image>a>img {
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+}
+
+.left-section {
+    width: 180px;
+    float: left;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.right-section {
+    width: 180px;
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    background: #1d1d1d;
+}
+
+.footer>a {
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.content-footer span {
+    font-weight: 400 !important;
+}
+
+.mob-menu,
+.top-section,
+.bottom-section,
+.ipad-top-section,
+.ipad-bottom-section {
+    display: none;
+}
+
+#taboola-below-photo-thumbnails {
+    display: inline-block;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.sharethis-inline-share-buttons {
+    padding: 10px !important;
+}
+
+#st-1 .st-btn>span {
+    min-width: auto!important;
+    display: block!important;
+    top: -35px;
+    color: #000!important;
+    letter-spacing: 0!important;
+    position: absolute!important
+}
+
+#st-1.st-has-labels .st-btn {
+    width: 40px!important;
+    min-width: 0!important
+}
+
+#st-1 .st-btn {
+    font-size: 14px!important
+}
+
+#st-1.st-has-labels .st-btn.st-remove-label {
+    min-width: 40px!important
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+    }
+    .left-section {
+        width: 20%;
+        float: left;
+        vertical-align: top;
+        padding: 5px;
+    }
+    .right-section {
+        width: 20%;
+        float: right;
+        vertical-align: top;
+        padding: 5px;
+    }
+    .middle-section {
+        width: 57%;
+        padding: 5px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /*body {
+        border-top: 4px solid #0d5079;
+        padding-top: 6px;
+    }*/
+    .wrapper {
+        /*padding: 4px;*/
+        border-radius: 5px;
+    }
+    .header {
+        background: #c83939;
+        position: relative;
+        border-top: 1px solid #dedede;
+        border-left: 1px solid #dedede;
+        border-right: 1px solid #dedede;
+        background-color: white;
+    }
+    /*.content {
+        border: 1px solid #c1bebe;
+    }*/
+    .logo {
+        float: left;
+        padding: 0px 30px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .wrapper {
+        width: 99%;
+    }
+    .desktop-menu>a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 4px 8px;
+        line-height: 50px;
+    }
+    .left-section,
+    .right-section,
+    .top-section,
+    .bottom-section {
+        display: none;
+    }
+    .ipad-top-section,
+    .ipad-bottom-section {
+        display: block;
+        padding-top: 5px;
+    }
+    .logo{
+        float: left;
+        padding: 0px 10px;
+        width: 155px;
+    }
+    .header-ad {
+        width: 580px;
+        height: 90px;
+        padding: 5px 0px;
+        float: left;
+        overflow: hidden;
+    }
+    .desktop-menu>a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 8px;
+        line-height: 50px;
+    }
+    .middle-section {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #fff;
+        text-align: center;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .header {
+        height: 120px;
+    }
+    .desktop-menu,
+    .header-ad,
+    .ipad-top-section,
+    .ipad-bottom-section,
+    .left-section,
+    .right-section {
+        display: none;
+    }
+    .logo {
+        float: none;
+        display: inline-block;
+        padding: 10px 0px;
+    }
+    .mob-menu {
+        display: block;
+        height: 60px;
+        background: #c83939;
+        width: 100%;
+    }
+    .mob-menu>a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 60px;
+        display: inline-block;
+        width: 18%;
+        text-align: center;
+    }
+    .top-section,
+    .bottom-section {
+        display: block;
+        width: 100%;
+    }
+    .middle-section {
+        width: auto;
+    }
+    .main-content,
+    .content-footer {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .nav-list {
+        width: 100%;
+        text-align: center;
+        height: 20px;
+        background: none;
+    }
+    .footer {
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        background: #1d1d1d;
+    }
+    .footer>a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0px 5px;
+    }
+}
